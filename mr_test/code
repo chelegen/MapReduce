@@ -1,0 +1,2 @@
+cat The_Man_of_Property.txt |python Map.py |sort -k1 
+| python Reduce.py > resault.local
